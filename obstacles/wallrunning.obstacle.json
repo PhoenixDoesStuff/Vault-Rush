@@ -1,0 +1,60 @@
+{
+ "format": "vaultrush-level",
+ "version": 1,
+ "kind": "obstacle",
+ "name": "Wallrunning",
+ "objects": [
+  {
+   "t": "platform",
+   "x": 0,
+   "y": 0,
+   "z": 12,
+   "w": 10,
+   "h": 1.2,
+   "d": 7
+  },
+  {
+   "t": "wall",
+   "x": -3.5,
+   "y": 0,
+   "z": 5,
+   "w": 1,
+   "h": 6,
+   "d": 10
+  },
+  {
+   "t": "wall",
+   "x": 3.5,
+   "y": 0,
+   "z": -0.5,
+   "w": 1,
+   "h": 6,
+   "d": 10
+  },
+  {
+   "t": "wall",
+   "x": -3.5,
+   "y": 0,
+   "z": -6,
+   "w": 1,
+   "h": 6,
+   "d": 10
+  },
+  {
+   "t": "platform",
+   "x": 0,
+   "y": 0,
+   "z": -12,
+   "w": 10,
+   "h": 1.2,
+   "d": 7
+  }
+ ],
+ "obstacle": {
+  "category": "custom",
+  "difficulty": "easy",
+  "width": 10,
+  "length": 31,
+  "count": 5
+ }
+}

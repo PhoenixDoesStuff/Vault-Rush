@@ -1,0 +1,36 @@
+{
+  "name": "vault-rush",
+  "productName": "Vault Rush",
+  "version": "1.0.0",
+  "description": "Vault Rush - first-person parkour game",
+  "main": "main.js",
+  "author": "PhoenixDoesStuff",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder --win portable --x64"
+  },
+  "devDependencies": {
+    "electron": "^31.0.0",
+    "electron-builder": "^24.13.3"
+  },
+  "build": {
+    "appId": "com.phoenixdoesstuff.vaultrush",
+    "productName": "Vault Rush",
+    "files": [
+      "main.js",
+      "VaultRushDEV.html",
+      "build/icon.png"
+    ],
+    "directories": {
+      "output": "dist"
+    },
+    "win": {
+      "target": [
+        "portable"
+      ],
+      "artifactName": "Vault-Rush.exe",
+      "icon": "build/icon.ico"
+    }
+  }
+}
